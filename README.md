@@ -1,4 +1,4 @@
-# Health_Index for England Power BI Project
+# Health Index for England Power BI Project
 
 Every year ONS releases the Health Index for England.
 The ONS’ Health Index provides a systematic, independent view of health in England. It enables users to compare health over time and across geographies.
