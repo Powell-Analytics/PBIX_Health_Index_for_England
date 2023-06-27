@@ -1,7 +1,7 @@
 #Choose LA and Comparators
 
-1. Download and save the pbix and xls files
-2. Reconect the pbix data sources to xls file
+1. Download and save the pbix and xlsx files
+2. Reconect the pbix data sources to xlsx file
 3. Within the Data_Selector calculated table:
             3a. Replace the first value, with the name of the required LA (Ensure this matches the loaded data)
             3b. Replace the second value with the name of the first comparator group you want to compare to
@@ -9,4 +9,16 @@
 4. Replace the values in the table 'Comparator_Group1' with the LA that you require in the first comparator group. 
 5. Replace the values in the table 'Comparator_Group2' with the LA that you require in the second comparator group.
 
-Complete! All visuals and KPIs will automatically update. 
+Complete! All visuals and KPIs will automatically update to show chosen LA. 
+
+#Add in Data for new year
+
+1. Open the xlsx file
+2. On the tab, 'Health Index - Data', update with data from ONS: 'Health Index scores at national, regional and local authority levels, England' - Table_2_Index_Scores
+            2a. Add a new row for each LA, with the year of the dataset in column C and the indicators from column D to BX. 
+3. On the tab, 'Health Index - Score', update with the data from ONS: 'Health Index scores at national, regional and local authority levels, England' - Table_3_YYYY_Index
+            3a. Add a new column for each LA with the overall Health Index Score. 
+3. Save and close xlsx file
+4. Open pbix file and click refresh
+
+Complete! All visuals and KPIs will automatically update to show latest data
