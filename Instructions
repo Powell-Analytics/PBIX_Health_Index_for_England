@@ -1,3 +1,5 @@
+#Choose LA and Comparators
+
 1. Download and save the pbix and xls files
 2. Reconect the pbix data sources to xls file
 3. Within the Data_Selector calculated table:
